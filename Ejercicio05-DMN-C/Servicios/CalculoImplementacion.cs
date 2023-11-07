@@ -17,9 +17,6 @@ namespace Ejercicio05_DMN_C.Servicios
         {
             bool bisiesto = true;
            
-
-
-
             if ((anioIntro % 4 == 0 && anioIntro % 100 != 0) || anioIntro % 400 == 0)
             {
                 Console.WriteLine("Es un Año Bisiesto");
